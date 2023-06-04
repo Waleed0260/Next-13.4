@@ -1,12 +1,13 @@
-'use client'
 
 import React from 'react'
-
+import Link from 'next/link'
 
 const Header = () => {
+
+
   return (
     <div>
-      Hello
+      <Link className='' href="/dashboard">Dashboard</Link>
     </div>
   )
 }

@@ -1,11 +1,17 @@
+"use client"
+
 import React from 'react'
-import Header from './Header'
+import CharacterCounter from './CharacterCounter'
+import { RecoilRoot } from 'recoil'
+
+
+
+
 const page = () => {
   return (
-    <div>
-      Helo
-    </div>
-
+  <RecoilRoot>
+    <CharacterCounter />
+  </RecoilRoot>
   )
 }
 
