@@ -6,8 +6,6 @@ import { RecoilRoot } from 'recoil'
 import TodoList from './TodoList'
 
 
-
-
 const page = () => {
   return (
   <RecoilRoot>
