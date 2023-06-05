@@ -1,4 +1,7 @@
+"use client"
 import { useRecoilValue, atom } from "recoil";
+import TodoItem from "./TodoItem";
+import TodoItemCreator from "./TodoItemCreator";
 
 const todoListState = atom({
     key: 'TodoList',
@@ -13,7 +16,7 @@ function TodoList() {
         {/* <TodoListStats /> */}
         {/* <TodoListFilters /> */}
         <TodoItemCreator />
-  
+        <h1>hello</h1>
         {todoList.map((todoItem) => (
           <TodoItem key={todoItem.id} item={todoItem} />
         ))}
