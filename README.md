@@ -1,4 +1,4 @@
-<b>Why we should choose Recoil as our global state management tool ?</b>
+<h1>Why we should choose Recoil as our global state management tool ?</h1>
 
 
 <b>Centralized State Management:</b> Recoil.js allows you to create and manage a centralized state store, known as an "atom," which can be accessed and modified by any component in your application. 
