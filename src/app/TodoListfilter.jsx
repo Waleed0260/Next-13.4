@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { todoListFilterState } from './TodoState';
 import { useRecoilState } from 'recoil';
